@@ -1,0 +1,121 @@
+*{margin: 0; padding: 0;}
+
+body
+{
+	background: url('../images/social-network.jpg');
+	background-size: cover;
+
+}
+
+#E
+{
+	font-family: tesla;
+}
+
+@font-face
+{
+	font-family: tesla;
+	src:url('../fonts/TESLA.ttf');
+
+}
+
+@font-face
+{
+    font-family: gotham;
+    src:url('../fonts/GothamBoldRegular.ttf');
+}
+
+#header-principal
+{
+	width: 100%;
+	font-size: 20px;
+	background: #66cccc;
+	line-height: 100px;
+	opacity: 0.9;
+}
+
+#LOGO
+{
+	font-size: 40px;
+	line-height: 100px;
+	margin-left: 30px;
+	color: #fff;
+}
+
+#LogoLogin
+{
+	
+	text-align: center;
+	font-size: 40px;
+	background-color: #66cccc;
+	border-radius: 10px;
+	box-shadow: #525252 10px 10px 15px;
+}
+
+#LogoLogin a
+{
+	color: #fff;
+}
+
+#btn-modulo
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 30%;
+	margin-left: 35%;
+	box-shadow: silver 5px 5px 15px;
+	background-color: #00cc7a;
+	color: #fff;
+	text-shadow: #000 2px 2px 5px;
+	border-radius: 30px;
+}
+
+#home
+{
+	
+}
+
+#item
+{
+	line-height: 70px;
+	color: #fff;
+}
+
+#item:hover
+{
+	color:#2272A5;
+
+}
+
+#informacion1
+{
+	text-align: center;
+	font-size: 30px;
+	background: rgba(192,192,192,0.8); 
+	width: 30%;
+	border-radius: 70px;
+	padding: 20px;
+	color: #107FC5;
+	margin: 15px;
+	cursor: pointer;
+}
+
+#informacion1:hover
+{
+	background: rgba(192,192,192,0.9); 
+}
+
+#contenedor
+{
+	text-align: center;
+	background: #C1C1C1;
+	width: 100px;
+	height: 40px;
+	box-shadow: #737373 10px 10px 10px;
+	border-radius: 20px;
+}
+
+#item-login
+{
+	font-size: 18px;
+}
