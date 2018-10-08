@@ -1,7 +1,7 @@
 <?php
 $actn =$_REQUEST['actn'];
 
-include("/db/");
+include("../../db/open_db.php");
 
 switch ($accion){
     case 'login':
@@ -21,5 +21,8 @@ switch ($accion){
         $res = $cnx->query("delete from empleados where codigo=$cod");
         break;
 }
+
+
+include("../../db/close_db.php");
 
 ?>
